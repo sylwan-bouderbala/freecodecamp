@@ -1,3 +1,20 @@
-p{
-    color: red;
+*{
+    box-sizing: border-box;
+}
+#head{
+     display: flex;
+     align-content: flex-start;
+}
+#nav{
+    display: flex;
+    align-content: flex-end;
+}
+#logo{
+  width: 25%;
+}
+img{
+    width: 25%;
+}
+nav,div{
+    padding: 25px;
 }
